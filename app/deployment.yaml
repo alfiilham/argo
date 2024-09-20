@@ -14,7 +14,7 @@ spec:
         app: hello-openshift
     spec:
       containers:
-      - image: docker.io/openshift/hello-openshift
+      - image: docker.io/alfiilham26/mainten:v99
         name: hello-openshift
         ports:
         - containerPort: 8080
