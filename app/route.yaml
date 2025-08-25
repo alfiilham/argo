@@ -2,7 +2,7 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: dev-app
-  namespace: argocd
+  namespace: default
   labels:
     app.kubernetes.io/instance: dev-app
 spec:
@@ -10,6 +10,6 @@ spec:
     kind: Service
     name: hello-openshift
   tls: {}
-  host: dev-app.apps.ocp-lab.virtus-demo.com
+  host: dev-app.apps.ocp4-dc.virtus.corp
   port:
     targetPort: 8080
