@@ -10,6 +10,5 @@ spec:
     kind: Service
     name: hello-openshift
   tls: {}
-  host: dev-app.apps.ocp4-dc.virtus.corp
   port:
     targetPort: 8080
