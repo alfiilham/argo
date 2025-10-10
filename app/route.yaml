@@ -2,7 +2,6 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: dev-app
-  namespace: default
   labels:
     app.kubernetes.io/instance: dev-app
 spec:
